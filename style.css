@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+html {
+    /* Set font size for easy rem calculations
+     * default document font size = 16px, 1rem = 16px, 100% = 16px
+    */
+    font-size: 100%;
+    scroll-behavior: smooth;
+}
+  
+body{
+    font-family: 'Quicksand', 'Open Sans', sans-serif;
+    min-width: 300px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#welcome-section{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./img/unknown.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
