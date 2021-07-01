@@ -419,8 +419,8 @@ div.gallery:hover {
 }
 
 @media screen and (max-width: 400px){
-    html{
-        font-size: 0.4rem;
+    .welcome-text{
+        font-size: 3.9rem;
     }
 
     #video-gallery .video{
