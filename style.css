@@ -280,7 +280,8 @@ div.gallery:hover {
 /* Responsiveness 
 ============================= */
 
-@media screen and (max-width: 1064px){
+
+@media screen and (max-width: 1400px){
     html{
         font-size: 0.8rem;
     }
